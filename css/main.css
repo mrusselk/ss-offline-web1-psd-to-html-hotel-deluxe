@@ -427,6 +427,7 @@ textarea {
     background-size: cover;
     padding-top: 30px;
     padding-bottom: 60px;
+   overflow: hidden;
 }
 
 .single-room-type{
