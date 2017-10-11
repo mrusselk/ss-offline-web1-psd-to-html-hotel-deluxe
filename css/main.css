@@ -615,6 +615,16 @@ p.footer-column-text{
     letter-spacing: 1px;
     margin-bottom: 5px;
 }
+
+.member-input:focus{
+    box-shadow: 0 0 6px 0 rgba(255,215,0,0.2);
+    -moz-box-shadow: 0 0 6px 0 rgba(255,215,0,0.5);
+    -webkit-box-shadow: 0 0 6px 0 rgba(255,215,0,0.5);
+    -o-box-shadow: 0 0 6px 0 rgba(255,215,0,0.5);
+    -ms-box-shadow: 0 0 6px 0 rgba(255,215,0,0.5);
+}
+
+
 .footer-btn{
     width:105px;
     height: 28px;
