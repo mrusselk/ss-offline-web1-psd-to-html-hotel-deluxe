@@ -529,9 +529,10 @@ textarea {
 }
 .person{
     position: absolute;
-    right:0;
-    top:-110px;
+    right:-20px;
+    top:-70px;
     z-index: 2;
+   
 }
 /*testimonial section end*/
 /*=============================================*/
