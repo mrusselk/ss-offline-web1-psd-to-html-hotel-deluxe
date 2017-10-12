@@ -332,7 +332,7 @@ textarea {
         outline: none;
     }
 
-    .price-btn{
+   .price-btn{
         /*padding:12px 40px;*/
         width: 177px;
         height: 42px;
@@ -343,6 +343,16 @@ textarea {
         font-weight: bold;
         color:#2a2e33;
         margin-top: 21px;
+        transition: all 0.4s ease;
+        -webkit-transition: all 0.4s ease;
+        -moz-transition: all 0.4s ease;
+        -o-transition: all 0.4s ease;
+        -ms-transition: all 0.4s ease;
+    }
+
+    .price-btn:hover{
+        cursor: pointer;
+        background-color: #e3c004;
     }
 /*slider section end*/
 /*====================================================*/
@@ -632,12 +642,24 @@ p.footer-column-text{
     color:#1e1e1e;
     font-family: 'Droid Sans', sans-serif;
     font-size: 12px;
-    background-color: #e7cb2c;
+    background-color: #ffd700;
     border-radius: 10px;
     border:none;
     font-weight: bold;
     text-transform: uppercase;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    
 }
+
+.footer-btn:hover{
+    cursor: pointer;
+    background-color: #e3c004;
+}
+
 .join-btn{
     margin-top: 20px;
 }
